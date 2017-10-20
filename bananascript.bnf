@@ -1,0 +1,17 @@
+<expressions> := <expressions+/>
+<expression> := <type> <name> = <value>
+                <while-loop>
+                <print> <name>
+                <print> <value>
+<conditional> := <name> <lt> <value>
+                 <name> <gt> <value>
+                 <name> <eq> <value>
+<while-loop> := <while> <conditional> | <expressions> \
+<while> := 'go bananas <conditional>'
+<type> := make <name> be <value>
+<name> := string
+<value> := integer or a string
+<print> := 'console.log(<name>)' | 'console.log(<value>)'
+<lt> := 'littler than'
+<gt> := 'bigger than'
+<eq> := 'same as'  

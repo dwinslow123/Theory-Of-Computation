@@ -1,0 +1,27 @@
+{
+  "name": "theory-of-computation",
+  "version": "1.0.0",
+  "description": "Why do I have to build data structures and what are they for? Data structures are specific examples of mechanical, automated problem solving.",
+  "main": "bananaTranspiler.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dwinslow123/Theory-Of-Computation.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/dwinslow123/Theory-Of-Computation/issues"
+  },
+  "homepage": "https://github.com/dwinslow123/Theory-Of-Computation#readme",
+  "devDependencies": {
+    "eslint": "^4.9.0",
+    "eslint-plugin-react": "^7.4.0"
+  },
+  "dependencies": {
+    "fs": "0.0.1-security",
+    "os": "^0.1.1"
+  }
+}
